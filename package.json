@@ -1,5 +1,5 @@
 {
-  "name": "stylelint-config-base",
+  "name": "@arlex/stylelint-config-base",
   "version": "1.0.0",
   "description": "arlex css lint rules",
   "main": "index.js",
@@ -8,7 +8,7 @@
     "lint": "npx eslint --no-eslintrc -c .eslintrc.js ./**/*.js",
     "lint:fix": "npx eslint --no-eslintrc -c .eslintrc.js --fix ./**/*.js"
   },
-  "author": "",
+  "author": "zhoutengjiao",
   "license": "ISC",
   "husky": {
     "hooks": {
