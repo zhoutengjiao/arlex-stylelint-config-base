@@ -1,6 +1,6 @@
 {
   "name": "@arlex/stylelint-config-base",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "arlex css lint rules",
   "main": "index.js",
   "scripts": {
