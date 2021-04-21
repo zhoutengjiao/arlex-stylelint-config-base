@@ -17,13 +17,9 @@
     }
   },
   "lint-staged": {
-    "index.js": [
-      "prettier --write",
-      "npm run lint:fix"
-    ],
-    "test/**/*.{js}": [
-      "prettier --write",
-      "npm run lint:fix"
+    "{src,test}/**/*.js": [
+      "npm run lint:fix",
+      "prettier --write"
     ]
   },
   "devDependencies": {
